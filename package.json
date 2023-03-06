@@ -11,16 +11,11 @@
     "test:dir" : "node ./src/index.js ./Files Dir"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alura-cursos/2708-node-lib-md.git"
+    "type": "git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alura-cursos/2708-node-lib-md/issues"
-  },
-  "homepage": "https://github.com/alura-cursos/2708-node-lib-md#readme",
   "dependencies": {
     "chalk": "^5.2.0"
   }
