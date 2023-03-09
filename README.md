@@ -32,7 +32,7 @@ Este script abre o arquivo `test.md`, extrai os links utilizando um regex com gr
 
 
 ## Sobre o Projeto
-Esse projeto foi desenvolvido com o objetivo de entender como validar links em Node.js. A estrutura dos arquivos e códigos pode não estar perfeita, mas foi feito o melhor possível para que tudo funcione. Caso você tenha alguma sugestão, fique `a vontade para abrir uma issue no repositório ou entre em contato através do meu LinkedIn: https://www.linkedin.com/in/victor23hd/
+Esse projeto foi desenvolvido com o objetivo de entender como validar links em Node.js. A estrutura dos arquivos e códigos pode não estar perfeita, mas foi feito o melhor possível para que tudo funcione. Caso você tenha alguma sugestão, `fique a vontade para abrir uma issue no repositório ou entre em contato através do meu LinkedIn`: https://www.linkedin.com/in/victor23hd/
 
 ## Tecnologias Utilizadas
 * Node.js
