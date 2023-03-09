@@ -1,26 +1,39 @@
 # ProcessFiles [ 📂 > 📖 ] 
 
-## Introdução ✅
+Esse projeto tem como objetivo extrair links de arquivos Markdown e validá-los utilizando a biblioteca fetch. As proximas versões sera otimizada para aceitar outros arquivos e melhorar a experiência do desenvolvedor.
 
-Após o download do projeto execute o (npm install) no terminal.
+## Instalação
+Após o download do projeto, execute o seguinte comando no terminal:
 
-Projeto feito para extrair links de arquivos Markdown, após as extração os links são passados para um fetch aonde o mesmo valida e retorna o status de cada um.
-As proximas versões serão otimizadas para a experiencia do desenvolvedor.
+```console
+npm install
+```
 
-### SCRIPTS:
+## Scripts
 
-  * <b> npm run test:file </b> - node ./src/index.js ./Files/text.md File <br>
-  <i> abre o arquivo test.md e utiliza um regex para extrair os links usando grupos. </i>
-  * <b> npm run test:dir </b> - node ./src/index.js ./Files Dir <br>
-  <i> abre a pasta Files e extrair os links de todos os arquivos. </i>
-  * <b> npm run test:validate </b> - node ./src/index.js ./Files/text.md Validate <br>
-  <i> abre o arquivo test.md e utiliza um regex para extrair os links usando grupos e depois valida todos os links
-  usando fetch(), cria e salva os links em uma pasta chamada validacao. <i>
- 
- 
+### Teste em arquivo
+```console
+npm run test:file
+```
+Este script abre o arquivo `test.md`, extrai os links utilizando regex e com grupos e, em seguida, os valida utilizando `fetch`.
 
-### Sobre
-> Esse projeto foi desenvolvido com a finalidade de entender como validar um link.<br>
-> NodeJs: (^12.17.0 || ^14.13 || >=16.0.0 - v18.13.0-DEV).<br>
-> Dependências: chalk(^5.2.0).<br>
-> Essa é a primeira vez que eu crio um projeto em NodeJs, a estrutura dos arquivos e códigos ainda não estão 100% perfeitas porém eu fiz eu meu melhor para deixar tudo funcionando, caso você que esteja lendo tenha alguma sugestão me mande uma mensagem no linkedin. (https://www.linkedin.com/in/victor23hd/)
+### Teste em Diretório
+```console
+npm run test:dir
+```
+Este script abre a pasta `Files` e extrai os links de todos os arquivos Markdown presentes nela.
+
+### Validação de Links em Arquivo
+```console
+npm run test:validate
+```
+Este script abre o arquivo `test.md`, extrai os links utilizando um regex com grupos e, em seguida, os valida utilizando fetch. Os links validados são salvos em uma pasta chamada `validacao`.
+
+
+
+## Sobre o Projeto
+Esse projeto foi desenvolvido com o objetivo de entender como validar links em Node.js. A estrutura dos arquivos e códigos pode não estar perfeita, mas foi feito o melhor possível para que tudo funcione. Caso você tenha alguma sugestão, fique `a vontade para abrir uma issue no repositório ou entre em contato através do meu LinkedIn: https://www.linkedin.com/in/victor23hd/
+
+## Tecnologias Utilizadas
+* Node.js
+* Biblioteca Chalk
